@@ -6,7 +6,7 @@ import pandas as pd
 # Load your pickled data
 popular_df = pd.read_pickle('popular.pkl')
 pt = pd.read_pickle('pt.pkl')
-books = pd.read_pickle('books.pkl')
+books = pd.read_pickle('books.zip')
 similarity_scores = np.load('similarity_scores',allow_pickle=True)
 
 # Streamlit app layout
